@@ -1,26 +1,26 @@
 # alexrepo
 
-This repository contains a small demo project combining Python utilities for genealogical data and a simple Node server with a React frontend.
+Este repositorio contiene un pequeño proyecto de demostración que combina utilidades de Python para datos genealógicos y un servidor de Node con un frontend en React.
 
-## Setup
+## Configuración
 
-1. **Install Python dependencies**
+1. **Instalar dependencias de Python**
    ```bash
    pip install -r requirements.txt
    ```
 
-2. **Install Node dependencies**
+2. **Instalar dependencias de Node**
    ```bash
    cd Server/Run
    npm install
    ```
 
-## Running
+## Ejecución
 
-- Start the Node server:
+- Iniciar el servidor de Node:
   ```bash
   npm start
   ```
-- Run any of the Python scripts from their respective folders as needed.
+- Ejecutar cualquiera de los scripts de Python desde sus respectivas carpetas según sea necesario.
 
-These instructions use the `requirements.txt` and `package.json` files added in this repository to make installation straightforward.
+Estas instrucciones utilizan los archivos `requirements.txt` y `package.json` incluidos en este repositorio para simplificar la instalación.
