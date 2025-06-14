@@ -1,11 +1,11 @@
-from pimongo import Client
+from pymongo import MongoClient
 from typing import List, Optional
 from backend.models import Persona, Familia
 import bson
 
 class GenealogiaDB:
     def __init__(self, uri="mongodb://localhost:27017", dbname="genealogia"):
-        self.client = Client(uri)
+        self.client = MongoClient(uri)
         self.db = self.client[dbname]
         self.personas = self.db.personas
         self.familias = self.db.familias
