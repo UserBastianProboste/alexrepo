@@ -1,4 +1,4 @@
-from pymongo import pimongo;
+from pymongo import pimongo
 
 class GenealogiaDB:
         
