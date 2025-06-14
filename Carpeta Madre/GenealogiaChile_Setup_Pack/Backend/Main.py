@@ -1,11 +1,11 @@
-from pymongo import pimongo;
+from pymongo import MongoClient
 
 class GenealogiaDB:
         
     def menu_interactivo():
             
         def __init__(self, db_name="genealogia"):
-                self.client = Pimongo()
+                self.client = MongoClient()
                 self.db = self.client[db_name]
                     self.collection = self.db.familias
             while True:
