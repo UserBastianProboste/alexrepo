@@ -1,0 +1,1748 @@
+[{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b5e9"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b5ea"
+  },
+  "import": "function",
+  "React": "ArbolGenealogico({",
+  "from": "personas",
+  "'react';": "})"
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b5eb"
+  },
+  "from": "//",
+  "'react';": "personas"
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b5ec"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b5ed"
+  },
+  "from": "//",
+  "'react';": "Construimos"
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b5ee"
+  },
+  "from": "const",
+  "'react';": "mapa"
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b5ef"
+  },
+  "from": "personas.forEach(p",
+  "'react';": "=>"
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b5f0"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b5f1"
+  },
+  "from": "//",
+  "'react';": "Función"
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b5f2"
+  },
+  "from": "function",
+  "'react';": "mostrarDescendencia(id,"
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b5f3"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b5f4"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b5f5"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b5f6"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b5f7"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b5f8"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b5f9"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b5fa"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b5fb"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b5fc"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b5fd"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b5fe"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b5ff"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b600"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b601"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b602"
+  },
+  "from": "}"
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b603"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b604"
+  },
+  "from": "//",
+  "'react';": "Encontrar"
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b605"
+  },
+  "from": "const",
+  "'react';": "raices"
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b606"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b607"
+  },
+  "from": "return",
+  "'react';": "("
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b608"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b609"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b60a"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b60b"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b60c"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b60d"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b60e"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b60f"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b610"
+  },
+  "from": ");"
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b611"
+  },
+  "import": "}"
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b612"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45be4937788f27a4b613"
+  },
+  "import": "export",
+  "React": "default",
+  "from": "ArbolGenealogico;"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b614"
+  },
+  "": "const mongoose = require('mongoose');"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b615"
+  },
+  "": "const Familia = require('../models/Familia');"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b616"
+  },
+  "": "const Persona = require('../models/Persona');"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b617"
+  },
+  "": "node scripts/insertarDatos.js"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b618"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b619"
+  },
+  "": "const mongoURI = 'mongodb://localhost:27017/genealogia';"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b61a"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b61b"
+  },
+  "": "async function insertarDatos() {"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b61c"
+  },
+  "": "  await mongoose.connect(mongoURI"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b61d"
+  },
+  "": "    useNewUrlParser: true"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b61e"
+  },
+  "": "    useUnifiedTopology: true"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b61f"
+  },
+  "": "  });"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b620"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b621"
+  },
+  "": "  console.log('Conectado a MongoDB para insertar datos.');"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b622"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b623"
+  },
+  "": "  // Limpia datos antiguos para no duplicar"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b624"
+  },
+  "": "  await Familia.deleteMany({});"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b625"
+  },
+  "": "  await Persona.deleteMany({});"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b626"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b627"
+  },
+  "": "  // Crear familias"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b628"
+  },
+  "": "  const familiaRomero = new Familia({ nombre: 'Romero'"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b629"
+  },
+  "": "  const familiaValdes = new Familia({ nombre: 'Valdes'"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b62a"
+  },
+  "": "  const familiaHernandez = new Familia({ nombre: 'Hernandez'"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b62b"
+  },
+  "": "  const familiaFuentes = new Familia({ nombre: 'Fuentes'"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b62c"
+  },
+  "": "  const familiaParra = new Familia({ nombre: 'Parra'"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b62d"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b62e"
+  },
+  "": "  await familiaRomero.save();"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b62f"
+  },
+  "": "  await familiaValdes.save();"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b630"
+  },
+  "": "  await familiaHernandez.save();"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b631"
+  },
+  "": "  await familiaFuentes.save();"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b632"
+  },
+  "": "  await familiaParra.save();"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b633"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b634"
+  },
+  "": "  // Crear personas importantes"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b635"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b636"
+  },
+  "": "  // Familia Romero"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b637"
+  },
+  "": "  const pedroRomero = new Persona({"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b638"
+  },
+  "": "    nombre: 'Pedro'"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b639"
+  },
+  "": "    apellidoPaterno: 'Romero'"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b63a"
+  },
+  "": "    apellidoMaterno: ''"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b63b"
+  },
+  "": "    fechaNacimiento: new Date('1700-01-01')"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b63c"
+  },
+  "": "    familia: familiaRomero._id"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b63d"
+  },
+  "": "    biografia: 'Primer Romero documentado en Chile.'"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b63e"
+  },
+  "": "  });"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b63f"
+  },
+  "": "  await pedroRomero.save();"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b640"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b641"
+  },
+  "": "  // Familia Valdes"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b642"
+  },
+  "": "  const joseMiguelValdes = new Persona({"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b643"
+  },
+  "": "    nombre: 'José Miguel'"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b644"
+  },
+  "": "    apellidoPaterno: 'Valdes'"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b645"
+  },
+  "": "    apellidoMaterno: ''"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b646"
+  },
+  "": "    fechaNacimiento: new Date('1750-01-01')"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b647"
+  },
+  "": "    familia: familiaValdes._id"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b648"
+  },
+  "": "    biografia: 'Importante terrateniente del Maule.'"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b649"
+  },
+  "": "  });"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b64a"
+  },
+  "": "  await joseMiguelValdes.save();"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b64b"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b64c"
+  },
+  "": "  // Familia Hernandez"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b64d"
+  },
+  "": "  const juanHernandez = new Persona({"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b64e"
+  },
+  "": "    nombre: 'Juan'"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b64f"
+  },
+  "": "    apellidoPaterno: 'Hernandez'"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b650"
+  },
+  "": "    apellidoMaterno: ''"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b651"
+  },
+  "": "    fechaNacimiento: new Date('1720-01-01')"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b652"
+  },
+  "": "    familia: familiaHernandez._id"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b653"
+  },
+  "": "    biografia: 'Primer Hernández documentado en Chile.'"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b654"
+  },
+  "": "  });"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b655"
+  },
+  "": "  await juanHernandez.save();"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b656"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b657"
+  },
+  "": "  // Familia Fuentes"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b658"
+  },
+  "": "  const carlosFuentes = new Persona({"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b659"
+  },
+  "": "    nombre: 'Carlos'"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b65a"
+  },
+  "": "    apellidoPaterno: 'Fuentes'"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b65b"
+  },
+  "": "    apellidoMaterno: ''"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b65c"
+  },
+  "": "    fechaNacimiento: new Date('1800-01-01')"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b65d"
+  },
+  "": "    familia: familiaFuentes._id"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b65e"
+  },
+  "": "    biografia: 'Destacado en la región de Valparaíso.'"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b65f"
+  },
+  "": "  });"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b660"
+  },
+  "": "  await carlosFuentes.save();"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b661"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b662"
+  },
+  "": "  // Familia Parra"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b663"
+  },
+  "": "  const vicenteParra = new Persona({"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b664"
+  },
+  "": "    nombre: 'Vicente'"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b665"
+  },
+  "": "    apellidoPaterno: 'Parra'"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b666"
+  },
+  "": "    apellidoMaterno: ''"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b667"
+  },
+  "": "    fechaNacimiento: new Date('1820-01-01')"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b668"
+  },
+  "": "    familia: familiaParra._id"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b669"
+  },
+  "": "    biografia: 'Cultura e influencia en Santiago.'"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b66a"
+  },
+  "": "  });"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b66b"
+  },
+  "": "  await vicenteParra.save();"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b66c"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b66d"
+  },
+  "": "  // Relaciones padres e hijos ejemplo (simple)"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b66e"
+  },
+  "": "  // Pedro Romero es padre de Juan Hernandez (hipotético)"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b66f"
+  },
+  "": "  juanHernandez.padres = [pedroRomero._id];"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b670"
+  },
+  "": "  await juanHernandez.save();"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b671"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b672"
+  },
+  "": "  // Cierra conexión"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b673"
+  },
+  "": "  mongoose.connection.close();"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b674"
+  },
+  "": "  console.log('Datos insertados y conexión cerrada.');"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b675"
+  },
+  "": "}"
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b676"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45cc4937788f27a4b677"
+  },
+  "": "insertarDatos().catch(console.error);"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b678"
+  },
+  "const": "const",
+  "express": "mongoose",
+  "=": "=",
+  "require('express');": "require('mongoose');"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b679"
+  },
+  "const": "const",
+  "express": "cors",
+  "=": "=",
+  "require('express');": "require('cors');"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b67a"
+  },
+  "const": "const",
+  "express": "app",
+  "=": "=",
+  "require('express');": "express();"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b67b"
+  },
+  "const": "const",
+  "express": "PORT",
+  "=": "=",
+  "require('express');": "3000;"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b67c"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b67d"
+  },
+  "const": "//",
+  "express": "Middlewares"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b67e"
+  },
+  "const": "app.use(cors());"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b67f"
+  },
+  "const": "app.use(express.json());"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b680"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b681"
+  },
+  "const": "//",
+  "express": "Conexión",
+  "=": "a",
+  "require('express');": "MongoDB"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b682"
+  },
+  "const": "mongoose.connect('mongodb://localhost:27017/genealogia',",
+  "express": "{"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b683"
+  },
+  "=": "useNewUrlParser:",
+  "require('express');": "true,"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b684"
+  },
+  "=": "useUnifiedTopology:",
+  "require('express');": "true,"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b685"
+  },
+  "const": "});"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b686"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b687"
+  },
+  "const": "//",
+  "express": "Esquemas",
+  "=": "y",
+  "require('express');": "modelos"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b688"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b689"
+  },
+  "const": "const",
+  "express": "FamiliaSchema",
+  "=": "=",
+  "require('express');": "new"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b68a"
+  },
+  "=": "nombre:",
+  "require('express');": "String,"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b68b"
+  },
+  "=": "descripcion:",
+  "require('express');": "String,"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b68c"
+  },
+  "=": "personajesNotables:",
+  "require('express');": "[String],"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b68d"
+  },
+  "const": "});"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b68e"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b68f"
+  },
+  "const": "const",
+  "express": "PersonaSchema",
+  "=": "=",
+  "require('express');": "new"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b690"
+  },
+  "=": "nombreCompleto:",
+  "require('express');": "String,"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b691"
+  },
+  "=": "apellidoPaterno:",
+  "require('express');": "String,"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b692"
+  },
+  "=": "apellidoMaterno:",
+  "require('express');": "String,"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b693"
+  },
+  "=": "fechaNacimiento:",
+  "require('express');": "Date,"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b694"
+  },
+  "=": "fechaFallecimiento:",
+  "require('express');": "Date,"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b695"
+  },
+  "=": "familia:",
+  "require('express');": "{"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b696"
+  },
+  "=": "descripcion:",
+  "require('express');": "String,"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b697"
+  },
+  "=": "imagenUrl:",
+  "require('express');": "String,"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b698"
+  },
+  "=": "padres:",
+  "require('express');": "[{"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b699"
+  },
+  "=": "hijos:",
+  "require('express');": "[{"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b69a"
+  },
+  "=": "conyuge:",
+  "require('express');": "{"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b69b"
+  },
+  "const": "});"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b69c"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b69d"
+  },
+  "const": "const",
+  "express": "Familia",
+  "=": "=",
+  "require('express');": "mongoose.model('Familia',"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b69e"
+  },
+  "const": "const",
+  "express": "Persona",
+  "=": "=",
+  "require('express');": "mongoose.model('Persona',"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b69f"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6a0"
+  },
+  "const": "//",
+  "express": "Rutas"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6a1"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6a2"
+  },
+  "const": "//",
+  "express": "Obtener",
+  "=": "todas",
+  "require('express');": "familias"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6a3"
+  },
+  "const": "app.get('/api/familias',",
+  "express": "async",
+  "=": "(req,",
+  "require('express');": "res)"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6a4"
+  },
+  "=": "const",
+  "require('express');": "familias"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6a5"
+  },
+  "=": "res.json(familias);"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6a6"
+  },
+  "const": "});"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6a7"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6a8"
+  },
+  "const": "//",
+  "express": "Obtener",
+  "=": "personas",
+  "require('express');": "por"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6a9"
+  },
+  "const": "app.get('/api/personas/familia/:familiaId',",
+  "express": "async",
+  "=": "(req,",
+  "require('express');": "res)"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6aa"
+  },
+  "=": "const",
+  "require('express');": "personas"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6ab"
+  },
+  "=": "res.json(personas);"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6ac"
+  },
+  "const": "});"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6ad"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6ae"
+  },
+  "const": "//",
+  "express": "Obtener",
+  "=": "persona",
+  "require('express');": "con"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6af"
+  },
+  "const": "app.get('/api/persona/:id',",
+  "express": "async",
+  "=": "(req,",
+  "require('express');": "res)"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6b0"
+  },
+  "=": "const",
+  "require('express');": "persona"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6b1"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6b2"
+  },
+  "=": "if",
+  "require('express');": "(!persona)"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6b3"
+  },
+  "=": "res.json(persona);"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6b4"
+  },
+  "const": "});"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6b5"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6b6"
+  },
+  "const": "//",
+  "express": "Crear",
+  "=": "familia"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6b7"
+  },
+  "const": "app.post('/api/familia',",
+  "express": "async",
+  "=": "(req,",
+  "require('express');": "res)"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6b8"
+  },
+  "=": "const",
+  "require('express');": "fam"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6b9"
+  },
+  "=": "await",
+  "require('express');": "fam.save();"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6ba"
+  },
+  "=": "res.json(fam);"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6bb"
+  },
+  "const": "});"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6bc"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6bd"
+  },
+  "const": "//",
+  "express": "Crear",
+  "=": "persona"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6be"
+  },
+  "const": "app.post('/api/persona',",
+  "express": "async",
+  "=": "(req,",
+  "require('express');": "res)"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6bf"
+  },
+  "=": "const",
+  "require('express');": "per"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6c0"
+  },
+  "=": "await",
+  "require('express');": "per.save();"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6c1"
+  },
+  "=": "res.json(per);"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6c2"
+  },
+  "const": "});"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6c3"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6c4"
+  },
+  "const": "app.listen(PORT,",
+  "express": "()",
+  "=": "=>",
+  "require('express');": "{"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6c5"
+  },
+  "=": "console.log(`API",
+  "require('express');": "escuchando"
+},
+{
+  "_id": {
+    "$oid": "684d45e34937788f27a4b6c6"
+  },
+  "const": "});"
+},
+{
+  "_id": {
+    "$oid": "684d45f14937788f27a4b6c7"
+  },
+  "//": "const",
+  "En": "cors",
+  "tu": "=",
+  "app": "require('cors');"
+},
+{
+  "_id": {
+    "$oid": "684d45f14937788f27a4b6c8"
+  },
+  "//": "app.use(cors());"
+},
+{
+  "_id": {
+    "$oid": "684d46034937788f27a4b6c9"
+  },
+  "mkdir": "cd",
+  "genealogia-chile": "genealogia-chile"
+},
+{
+  "_id": {
+    "$oid": "684d46034937788f27a4b6ca"
+  },
+  "mkdir": "npm",
+  "genealogia-chile": "init"
+},
+{
+  "_id": {
+    "$oid": "684d46034937788f27a4b6cb"
+  },
+  "mkdir": "npm",
+  "genealogia-chile": "install"
+},
+{
+  "_id": {
+    "$oid": "684d46034937788f27a4b6cc"
+  },
+  "mkdir": "const",
+  "genealogia-chile": "mongoURI"
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6cd"
+  },
+  "const": "const",
+  "mongoose": "Familia",
+  "=": "=",
+  "require('mongoose');": "require('./models/Familia');"
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6ce"
+  },
+  "const": "const",
+  "mongoose": "Persona",
+  "=": "=",
+  "require('mongoose');": "require('./models/Persona');"
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6cf"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6d0"
+  },
+  "const": "async",
+  "mongoose": "function",
+  "=": "poblar()",
+  "require('mongoose');": "{"
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6d1"
+  },
+  "=": "await",
+  "require('mongoose');": "mongoose.connect('mongodb://localhost:27017/genealogia',"
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6d2"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6d3"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6d4"
+  },
+  "=": "});"
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6d5"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6d6"
+  },
+  "=": "//",
+  "require('mongoose');": "Limpiar"
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6d7"
+  },
+  "=": "await",
+  "require('mongoose');": "Familia.deleteMany({});"
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6d8"
+  },
+  "=": "await",
+  "require('mongoose');": "Persona.deleteMany({});"
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6d9"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6da"
+  },
+  "=": "//",
+  "require('mongoose');": "Crear"
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6db"
+  },
+  "=": "const",
+  "require('mongoose');": "valdes"
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6dc"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6dd"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6de"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6df"
+  },
+  "=": "});"
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6e0"
+  },
+  "=": "await",
+  "require('mongoose');": "valdes.save();"
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6e1"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6e2"
+  },
+  "=": "const",
+  "require('mongoose');": "hernandez"
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6e3"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6e4"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6e5"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6e6"
+  },
+  "=": "});"
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6e7"
+  },
+  "=": "await",
+  "require('mongoose');": "hernandez.save();"
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6e8"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6e9"
+  },
+  "=": "//",
+  "require('mongoose');": "Crear"
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6ea"
+  },
+  "=": "const",
+  "require('mongoose');": "joseMiguel"
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6eb"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6ec"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6ed"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6ee"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6ef"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6f0"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6f1"
+  },
+  "=": "});"
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6f2"
+  },
+  "=": "await",
+  "require('mongoose');": "joseMiguel.save();"
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6f3"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6f4"
+  },
+  "=": "const",
+  "require('mongoose');": "pedroH"
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6f5"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6f6"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6f7"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6f8"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6f9"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6fa"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6fb"
+  },
+  "=": "});"
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6fc"
+  },
+  "=": "await",
+  "require('mongoose');": "pedroH.save();"
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6fd"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6fe"
+  },
+  "=": "console.log('Datos",
+  "require('mongoose');": "iniciales"
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b6ff"
+  },
+  "=": "mongoose.connection.close();"
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b700"
+  },
+  "const": "}"
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b701"
+  }
+},
+{
+  "_id": {
+    "$oid": "684d460f4937788f27a4b702"
+  },
+  "const": "poblar();"
+},
+{
+  "_id": {
+    "$oid": "684d46b03866887829875bda"
+  },
+  "nombre": "Juan",
+  "apellido": "Perez",
+  "edad": 30
+}]

@@ -1,0 +1,44 @@
+import React from 'react';
+
+function ArbolGenealogico({ personas }) {
+  // personas es un array con estructura { _id, nombreCompleto, padreId, madreId }
+
+  // Construimos mapa id -> persona
+  const mapa = {};
+  personas.forEach(p => (mapa[p._id] = p));
+
+  // Función recursiva para mostrar descendencia
+  function mostrarDescendencia(id, nivel = 0) {
+    const persona = mapa[id];
+    if (!persona) return null;
+
+    const hijos = personas.filter(p => p.padreId === id || p.madreId === id);
+
+    return (
+      <div style={{ marginLeft: nivel * 20 }}>
+        • {persona.nombreCompleto}
+        {hijos.length > 0 && (
+          <div>
+            {hijos.map(hijo => mostrarDescendencia(hijo._id, nivel + 1))}
+          </div>
+        )}
+      </div>
+    );
+  }
+
+  // Encontrar personas que no tengan padre ni madre (raíces)
+  const raices = personas.filter(p => !p.padreId && !p.madreId);
+
+  return (
+    <div style={{ padding: 20 }}>
+      <h3>Árbol Genealógico</h3>
+      {raices.length === 0 ? (
+        <p>No se encontraron raíces (personas sin padres registrados)</p>
+      ) : (
+        raices.map(r => mostrarDescendencia(r._id))
+      )}
+    </div>
+  );
+}
+
+export default ArbolGenealogico;

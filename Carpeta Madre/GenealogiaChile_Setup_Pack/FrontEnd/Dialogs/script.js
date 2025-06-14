@@ -1,0 +1,1 @@
+// Lógica JS para interacción

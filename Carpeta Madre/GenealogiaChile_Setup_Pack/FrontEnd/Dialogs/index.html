@@ -1,0 +1,79 @@
+const express = require('express');
+const mongoose = require('mongoose');
+const cors = require('cors');
+
+const app = express();
+app.use(cors());
+app.use(express.json());
+
+// Conexión a MongoDB
+const mongoURI = 'mongodb://localhost:27017/genealogia'; // Cambia si usas Atlas
+mongoose.connect(mongoURI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+})
+.then(() => console.log('MongoDB conectado'))
+.catch(err => console.log(err));
+
+// Modelo Familia
+const familiaSchema = new mongoose.Schema({
+  nombre: String,
+  descripcion: String,
+});
+
+const Familia = mongoose.model('Familia', familiaSchema);
+
+// Modelo Persona
+const personaSchema = new mongoose.Schema({
+  nombre: String,
+  apellidoPaterno: String,
+  apellidoMaterno: String,
+  fechaNacimiento: Date,
+  fechaFallecimiento: Date,
+  familia: { type: mongoose.Schema.Types.ObjectId, ref: 'Familia' },
+  padres: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Persona' }],
+  hijos: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Persona' }],
+  biografia: String,
+});
+
+const Persona = mongoose.model('Persona', personaSchema);
+
+// Rutas básicas
+
+// Obtener todas las familias
+app.get('/familias', async (req, res) => {
+  const familias = await Familia.find();
+  res.json(familias);
+});
+
+// Crear familia
+app.post('/familias', async (req, res) => {
+  const nuevaFamilia = new Familia(req.body);
+  await nuevaFamilia.save();
+  res.json(nuevaFamilia);
+});
+
+// Obtener personas por familia
+app.get('/familias/:id/personas', async (req, res) => {
+  const personas = await Persona.find({ familia: req.params.id });
+  res.json(personas);
+});
+
+// Crear persona
+app.post('/personas', async (req, res) => {
+  const nuevaPersona = new Persona(req.body);
+  await nuevaPersona.save();
+  res.json(nuevaPersona);
+});
+
+// Obtener persona con detalles padres e hijos
+app.get('/personas/:id', async (req, res) => {
+  const persona = await Persona.findById(req.params.id)
+    .populate('padres hijos familia');
+  res.json(persona);
+});
+
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+  console.log(`Servidor corriendo en puerto ${PORT}`);
+});

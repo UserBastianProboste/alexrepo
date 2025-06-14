@@ -1,0 +1,23 @@
+import pandas as pd
+from pymongo import MongoClient
+
+client = MongoClient('mongodb://localhost:27017/')
+db = client['familias_chile']
+coleccion = db['genealogia']
+
+def importar_desde_excel(ruta):
+    df = pd.read_excel(ruta)
+    for _, fila in df.iterrows():
+        doc = {
+            "nombre": fila['Nombre'],
+            "familia": fila['Familia'],
+            "siglo": fila['Siglo'],
+            "rol": fila['Rol'],
+            "descendientes": []
+        }
+        coleccion.insert_one(doc)
+    print(f"Importados {len(df)} registros desde {ruta}")
+
+if __name__ == "__main__":
+    # importar_desde_excel("genealogia_chile.xlsx")
+    pass

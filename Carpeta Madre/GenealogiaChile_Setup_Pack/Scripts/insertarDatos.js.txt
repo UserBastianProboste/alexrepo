@@ -1,0 +1,101 @@
+
+const mongoose = require('mongoose');
+const Familia = require('../models/Familia');
+const Persona = require('../models/Persona');
+node scripts/insertarDatos.js
+
+const mongoURI = 'mongodb://localhost:27017/genealogia';
+
+async function insertarDatos() {
+  await mongoose.connect(mongoURI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  });
+
+  console.log('Conectado a MongoDB para insertar datos.');
+
+  // Limpia datos antiguos para no duplicar
+  await Familia.deleteMany({});
+  await Persona.deleteMany({});
+
+  // Crear familias
+  const familiaRomero = new Familia({ nombre: 'Romero', descripcion: 'Familia Romero de Chile' });
+  const familiaValdes = new Familia({ nombre: 'Valdes', descripcion: 'Familia Valdes del Maule y Ñuble' });
+  const familiaHernandez = new Familia({ nombre: 'Hernandez', descripcion: 'Familia Hernandez originaria de Chile' });
+  const familiaFuentes = new Familia({ nombre: 'Fuentes', descripcion: 'Familia Fuentes de Chile' });
+  const familiaParra = new Familia({ nombre: 'Parra', descripcion: 'Familia Parra destacada en la cultura chilena' });
+
+  await familiaRomero.save();
+  await familiaValdes.save();
+  await familiaHernandez.save();
+  await familiaFuentes.save();
+  await familiaParra.save();
+
+  // Crear personas importantes
+
+  // Familia Romero
+  const pedroRomero = new Persona({
+    nombre: 'Pedro',
+    apellidoPaterno: 'Romero',
+    apellidoMaterno: '',
+    fechaNacimiento: new Date('1700-01-01'),
+    familia: familiaRomero._id,
+    biografia: 'Primer Romero documentado en Chile.',
+  });
+  await pedroRomero.save();
+
+  // Familia Valdes
+  const joseMiguelValdes = new Persona({
+    nombre: 'José Miguel',
+    apellidoPaterno: 'Valdes',
+    apellidoMaterno: '',
+    fechaNacimiento: new Date('1750-01-01'),
+    familia: familiaValdes._id,
+    biografia: 'Importante terrateniente del Maule.',
+  });
+  await joseMiguelValdes.save();
+
+  // Familia Hernandez
+  const juanHernandez = new Persona({
+    nombre: 'Juan',
+    apellidoPaterno: 'Hernandez',
+    apellidoMaterno: '',
+    fechaNacimiento: new Date('1720-01-01'),
+    familia: familiaHernandez._id,
+    biografia: 'Primer Hernández documentado en Chile.',
+  });
+  await juanHernandez.save();
+
+  // Familia Fuentes
+  const carlosFuentes = new Persona({
+    nombre: 'Carlos',
+    apellidoPaterno: 'Fuentes',
+    apellidoMaterno: '',
+    fechaNacimiento: new Date('1800-01-01'),
+    familia: familiaFuentes._id,
+    biografia: 'Destacado en la región de Valparaíso.',
+  });
+  await carlosFuentes.save();
+
+  // Familia Parra
+  const vicenteParra = new Persona({
+    nombre: 'Vicente',
+    apellidoPaterno: 'Parra',
+    apellidoMaterno: '',
+    fechaNacimiento: new Date('1820-01-01'),
+    familia: familiaParra._id,
+    biografia: 'Cultura e influencia en Santiago.',
+  });
+  await vicenteParra.save();
+
+  // Relaciones padres e hijos ejemplo (simple)
+  // Pedro Romero es padre de Juan Hernandez (hipotético)
+  juanHernandez.padres = [pedroRomero._id];
+  await juanHernandez.save();
+
+  // Cierra conexión
+  mongoose.connection.close();
+  console.log('Datos insertados y conexión cerrada.');
+}
+
+insertarDatos().catch(console.error);
