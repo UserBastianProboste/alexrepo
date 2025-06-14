@@ -1,0 +1,8 @@
+pymongo
+pandas
+openpyxl
+python-docx
+PyQt6
+fpdf
+Pillow
+requests
